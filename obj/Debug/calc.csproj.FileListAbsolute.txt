@@ -1,0 +1,10 @@
+E:\Users\C0mputer\Documents\PythonFor\CS\Projects\calc\calc\bin\Debug\calc.exe.config
+C:\Users\shsac\OneDrive\Documents\PythonFor\cs\Projects\Calc\bin\Debug\calc.exe.config
+C:\Users\shsac\OneDrive\Documents\PythonFor\cs\Projects\Calc\obj\Debug\calc.csprojResolveAssemblyReference.cache
+C:\Users\shsac\OneDrive\Documents\PythonFor\cs\Projects\Calc\obj\Debug\calc.Form1.resources
+C:\Users\shsac\OneDrive\Documents\PythonFor\cs\Projects\Calc\obj\Debug\calc.Properties.Resources.resources
+C:\Users\shsac\OneDrive\Documents\PythonFor\cs\Projects\Calc\obj\Debug\calc.csproj.GenerateResource.Cache
+C:\Users\shsac\OneDrive\Documents\PythonFor\cs\Projects\Calc\bin\Debug\calc.exe
+C:\Users\shsac\OneDrive\Documents\PythonFor\cs\Projects\Calc\bin\Debug\calc.pdb
+C:\Users\shsac\OneDrive\Documents\PythonFor\cs\Projects\Calc\obj\Debug\calc.exe
+C:\Users\shsac\OneDrive\Documents\PythonFor\cs\Projects\Calc\obj\Debug\calc.pdb
