@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDisplay = new System.Windows.Forms.TextBox();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
@@ -38,20 +38,20 @@
             this.btn7 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btn10 = new System.Windows.Forms.Button();
             this.btn0 = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
             this.btnPlus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtDisplay
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(40, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 35);
-            this.textBox1.TabIndex = 0;
+            this.txtDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDisplay.Location = new System.Drawing.Point(40, 26);
+            this.txtDisplay.Name = "txtDisplay";
+            this.txtDisplay.Size = new System.Drawing.Size(200, 35);
+            this.txtDisplay.TabIndex = 0;
             // 
             // btn1
             // 
@@ -152,16 +152,16 @@
             this.btn9.UseVisualStyleBackColor = true;
             this.btn9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // button10
+            // btn10
             // 
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(22, 335);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(49, 40);
-            this.button10.TabIndex = 10;
-            this.button10.Text = ".";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.btn10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn10.Location = new System.Drawing.Point(22, 335);
+            this.btn10.Name = "btn10";
+            this.btn10.Size = new System.Drawing.Size(49, 40);
+            this.btn10.TabIndex = 10;
+            this.btn10.Text = ".";
+            this.btn10.UseVisualStyleBackColor = true;
+            this.btn10.Click += new System.EventHandler(this.button10_Click);
             // 
             // btn0
             // 
@@ -217,7 +217,7 @@
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btn0);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.btn10);
             this.Controls.Add(this.btn9);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
@@ -227,7 +227,7 @@
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDisplay);
             this.Name = "Form1";
             this.Text = "Calculator";
             this.ResumeLayout(false);
@@ -237,7 +237,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDisplay;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Button btn3;
@@ -247,7 +247,7 @@
         private System.Windows.Forms.Button btn7;
         private System.Windows.Forms.Button btn8;
         private System.Windows.Forms.Button btn9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btn10;
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnMinus;
