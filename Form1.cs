@@ -46,7 +46,7 @@ namespace calc
 
         private void button12_Click(object sender, EventArgs e)
         {
-            txtDisplay.Text = txtDisplay.Text + btnClear.Text;
+            txtDisplay.Clear();
         }
 
         private void button6_Click(object sender, EventArgs e)
